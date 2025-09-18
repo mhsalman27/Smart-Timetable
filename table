@@ -1,0 +1,48 @@
+// smart-timetable/
+// │
+// ├── backend/                  # Node + Express + MongoDB
+// │   ├── models/               # Mongoose Schemas
+// │   │   ├── Teacher.js
+// │   │   ├── Classroom.js
+// │   │   └── Subject.js
+// │   │
+// │   ├── routes/               # API Endpoints
+// │   │   ├── teacherRoutes.js
+// │   │   ├── classroomRoutes.js
+// │   │   └── subjectRoutes.js
+// │   │
+// │   ├── controllers/          # Logic for each route
+// │   │   ├── teacherController.js
+// │   │   ├── classroomController.js
+// │   │   └── subjectController.js
+// │   │
+// │   ├── utils/                # Helper functions (Algorithm, etc.)
+// │   │   └── timetableGenerator.js
+// │   │
+// │   ├── server.js             # Express server entry
+// │   └── config.js             # DB connection, environment configs
+// │
+// ├── frontend/                 # React App
+// │   ├── src/
+// │   │   ├── components/       # Reusable UI
+// │   │   │   ├── TimetableGrid.jsx
+// │   │   │   ├── TeacherForm.jsx
+// │   │   │   └── SubjectForm.jsx
+// │   │   │
+// │   │   ├── pages/            # Full pages
+// │   │   │   ├── Dashboard.jsx
+// │   │   │   └── AdminPanel.jsx
+// │   │   │
+// │   │   ├── api/              # Axios calls
+// │   │   │   ├── teacherApi.js
+// │   │   │   ├── subjectApi.js
+// │   │   │   └── classroomApi.js
+// │   │   │
+// │   │   ├── App.js
+// │   │   └── index.js
+// │   │
+// │   ├── package.json
+// │   └── public/
+// │
+// ├── README.md
+// └── package.json              # Main (root) package file if needed
